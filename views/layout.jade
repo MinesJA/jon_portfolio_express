@@ -13,12 +13,12 @@ html
           h1 Jonathan Mines
           p Full Stack Developer
           .line
-          p: #[a(href="https://github.com/MinesJA") Github] #[a(href="http://example.com") a link]
+          p: #[a(href="https://github.com/MinesJA") Github] #[a(href="https://medium.com/@jonathanmines") Medium]
 
 
         ul#menu.sidebar
           li
-            a(href='') Home
+            a(href='/') Home
           li
             a(href="resume") Resume
           li
@@ -27,4 +27,5 @@ html
             a(href="contact") Contact
 
       .content
-        block content
+        .page
+          block content

@@ -27,6 +27,11 @@ a {
   grid-column:auto;
 }
 
+.page {
+  margin-left: 25px;
+
+}
+
 #profile {
   display: block;
   margin: auto 0;
@@ -44,9 +49,11 @@ a {
   margin: 0px;
 }
 
+
 #header > p {
   margin: 5px;
 }
+
 
 #menu {
     list-style-type: none;
