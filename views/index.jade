@@ -1,5 +1,17 @@
 extends layout
 
 block content
-    h1 Jonathan Mines
+    .header
+      h1 Jonathan Mines
+
+    h2 Mission Statement
+    .line
     p Full Stack Web Developer with a passion for building a more precise, efficient, and connected world through code. With a background in the Food Industry specializing in Distribution, Marketing and Sales, I discovered coding while constantly searching for tech-based solutions to business problems. With experience in Ruby on Rails, Javascript, React.js and Redux I hope to bring this problem solving approach to companies trying to build a better world.
+
+    h2 Skills
+    .line
+
+    .skills
+      - var skills = ["Ruby", "Rails", "Rack", "Sinatra", "ActiveRecord", "Javascript", "Node", "Express", "React", "Redux", "Python", "Git", "SQL", "PostGres", "SQLite", "JWT", "Bcrypt", "Jade"];
+      for skill in skills
+        div.tag= skill

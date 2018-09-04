@@ -7,24 +7,33 @@ html
 
     .main
       .navbar
-        img#profile(src="https://i.imgur.com/7osa1ds.jpg" alt="Profile Picture")
+        div
+          img#profile(src="https://i.imgur.com/7osa1ds.jpg" alt="Profile Picture")
 
-        #header
-          h1 Jonathan Mines
-          p Full Stack Developer
-          .line
-          p: #[a(href="https://github.com/MinesJA") Github] #[a(href="https://medium.com/@jonathanmines") Medium]
+          #header
+            h1 Jonathan Mines
+            p Full Stack Developer
+            p Brooklyn, NY
+            .line
 
+            a(href='https://medium.com/@jonathanmines')
+              img.logos(src="https://cdn-images-1.medium.com/max/1600/1*emiGsBgJu2KHWyjluhKXQw.png" alt="Medium Logo")
 
-        ul#menu.sidebar
-          li
-            a(href='/') Home
-          li
-            a(href="resume") Resume
-          li
-            a(href="projects") Projects
-          li
-            a(href="contact") Contact
+            a(href='https://github.com/MinesJA')
+              img.logos(src="https://assets-cdn.github.com/images/modules/logos_page/GitHub-Mark.png" alt="Github Logo")
+
+            a(href='https://www.linkedin.com/in/jonathan-mines-a8320252/')
+              img.logos(src="https://image.freepik.com/free-icon/linkedin-logo-ios-7-interface-symbol_318-33633.jpg" alt="LinkedIn Logo")
+
+          ul#menu.sidebar
+            li
+              a(href='/') Home
+            li
+              a(href="resume") Resume
+            li
+              a(href="projects") Projects
+            li
+              a(href="contact") Contact
 
       .content
         .page

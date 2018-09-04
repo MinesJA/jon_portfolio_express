@@ -7,6 +7,29 @@ a {
   color: #00B7FF;
 }
 
+.header {
+  background-color: #555;
+}
+
+.tag {
+  margin: 5px;
+  padding: 5px;
+  height: 20px;
+  text-align: center;
+  border: 0.5px solid;
+  display: inline-block;
+  overflow: auto;
+}
+
+.tag:hover {
+  background-color: #555;
+  color: white;
+}
+
+.skills {
+  margin: 5px 0px;
+}
+
 .line {
   height: 2px;
   background-color: black;
@@ -21,6 +44,11 @@ a {
 
 .navbar {
   grid-column: auto;
+  border: 0.5px solid;
+}
+
+.navbar > div {
+  margin: 5px;
 }
 
 .content {
@@ -28,32 +56,35 @@ a {
 }
 
 .page {
-  margin-left: 25px;
+  margin: 0px 25px;
+  width: 75%;
+}
 
+.logos {
+  width: 20px;
+  margin: 5px;
 }
 
 #profile {
   display: block;
-  margin: auto 0;
-  width: 200px;
+  margin: 10px auto;
+  width: 150px;
   height: auto;
-
+  border-radius: 5%;
 }
 
 #header {
   padding: 10px 16px;
-
 }
 
 #header > h1 {
   margin: 0px;
+  font-size: 20px;
 }
-
 
 #header > p {
   margin: 5px;
 }
-
 
 #menu {
     list-style-type: none;
