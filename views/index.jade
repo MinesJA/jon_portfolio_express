@@ -2,16 +2,40 @@ extends layout
 
 block content
     .header
-      h1 Jonathan Mines
+      .line
+      h1 About Me
+      .line
 
-    h2 Mission Statement
+    article Full Stack Web Developer with a passion for building a more precise, efficient, and connected world through code. With a background in the Food Industry specializing in Distribution, Marketing and Sales, I discovered coding while constantly searching for tech-based solutions to business problems. With experience in Ruby on Rails, Javascript, React.js and Redux I hope to bring this problem solving approach to companies trying to build a better world.
+
+    h2 Languages
     .line
-    p Full Stack Web Developer with a passion for building a more precise, efficient, and connected world through code. With a background in the Food Industry specializing in Distribution, Marketing and Sales, I discovered coding while constantly searching for tech-based solutions to business problems. With experience in Ruby on Rails, Javascript, React.js and Redux I hope to bring this problem solving approach to companies trying to build a better world.
 
-    h2 Skills
+    .tags
+      - var frameworks = ["Ruby", "Javascript", "Python", "SQL", "Jade"];
+      for framework in frameworks
+        div.tag= framework
+
+    h2 Frameworks
     .line
 
-    .skills
-      - var skills = ["Ruby", "Rails", "Rack", "Sinatra", "ActiveRecord", "Javascript", "Node", "Express", "React", "Redux", "Python", "Git", "SQL", "PostGres", "SQLite", "JWT", "Bcrypt", "Jade"];
-      for skill in skills
-        div.tag= skill
+    .tags
+      - var frameworks = ["Rails", "Sinatra", "ActiveRecord", "Node", "Express", "React"];
+      for framework in frameworks
+        div.tag= framework
+
+    h2 Databases
+    .line
+
+    .tags
+      - var frameworks = ["PostGres", "SQLite"];
+      for framework in frameworks
+        div.tag= framework
+
+    h2 Libraries/Tools
+    .line
+
+    .tags
+      - var frameworks = ["Redux", "Git", "JWT", "Bcrypt"];
+      for framework in frameworks
+        div.tag= framework

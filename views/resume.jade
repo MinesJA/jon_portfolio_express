@@ -1,80 +1,82 @@
 extends layout
 
 block content
+  .header
+    .line
+    h1 Resume
+    .line
 
-  h1 JONATHAN MINES
-  #[a(href="https://github.com/MinesJA") Github] #[a(href="https://medium.com/@jonathanmines") Medium]
-  p: #[Brooklyn, NY | (614) 822-9936 | ] #[a(href="mailto:minesja@gmail.com") MinesJA@gmail.com] #[|  GitHub ] [a(href="https://github.com/MinesJA") /MinesJA] #[|  GitHub ]
+  .resume
+    h1 JONATHAN MINES
+    p: #[ Brooklyn, NY | (614) 822-9936 | ] #[a(href="mailto:minesja@gmail.com") MinesJA@gmail.com] #[ | GitHub: ] #[a(href="https://github.com/MinesJA") /MinesJA] #[ | Medium: ] #[a(href="https://medium.com/@jonathanmines") @jonathanmines] #[ | ] #[a(href="https://minesja.com") MinesJA.com]
+    .line
 
-  p Brooklyn, NY | (614) 822-9936 | MinesJA@gmail.com |  GitHub   | Medium @jonathanmines
-  .line
+    h3 SUMMARY
+    p Full Stack Web Developer with a passion for building a more precise, efficient, and connected world through code. With a background in the Food Industry specializing in Distribution, Marketing and Sales, I discovered coding while constantly searching for tech-based solutions to business problems. With experience in Ruby on Rails, Javascript, React.js and Redux I hope to bring this problem solving approach to companies trying to build a better world.
+    .line
 
-  h3 SUMMARY
-  p Full Stack Web Developer with a passion for building a more precise, efficient, and connected world through code. With a background in the Food Industry specializing in Distribution, Marketing and Sales, I discovered coding while constantly searching for tech-based solutions to business problems. With experience in Ruby on Rails, Javascript, React.js and Redux I hope to bring this problem solving approach to companies trying to build a better world.
-  .line
+    h3 SKILLS
+    p Ruby | Rails | Rack | Sinatra | ActiveRecord | Javascript | Node | Express | React | Redux | Python | Git | SQL | PostGres | SQLite | JWT | Bcrypt | Jade
+    .line
 
-  h3 SKILLS
-  p Ruby | Rails | Rack | Sinatra | ActiveRecord | Javascript | Node | Express | React | Redux | Python | Git | SQL | PostGres | SQLite | JWT | Bcrypt | Jade
-  .line
+    h3 TECHNICAL PROJECTS
 
-  h3 TECHNICAL PROJECTS
+    h4: #[ Madlibs - ] #[a(href="https://github.com/MinesJA/madlibs_game") Github Repo]
+    p A web application that allows users to create Madlib stories using a tagging system for extracting words and producing forms for other users to fill out. Users can play, create, and rate stories for other users.
+    ul
+      li Built entirely with Rails. Employed Bootstrap for styling.
+      li Used PostGres as the database management system.
+      li Utilized Bcrypt to implement sessions-based authorization.
 
-  h4: #[ Madlibs - ] #[a(href="https://github.com/MinesJA/madlibs_game") Github Repo]
-  p A web application that allows users to create Madlib stories using a tagging system for extracting words and producing forms for other users to fill out. Users can play, create, and rate stories for other users.
-  ul
-    li Built entirely with Rails. Employed Bootstrap for styling.
-    li Used PostGres as the database management system.
-    li Utilized Bcrypt to implement sessions-based authorization.
+    h4: #[ Tools of the Trade - ] #[a(href="https://github.com/MinesJA/tools_of_the_trade_frontend") Github Repo]
+    p A web application that allows users to add, rate, and find developer tools. Users can add descriptions, links, and images for tools ranging from frameworks to wireframe tools to packages. Authorizes and authenticates users using Github’s OAuth authorization flow.
+    ul
+      li Built frontend using React Framework, Redux, and Semantic UI for styling.
+      li Built backend using Ruby on Rails and used PostGres as the database management system.
+      li Utilized both Bcrypt and JWT to implement token-based authorization.
 
-  h4: #[ Tools of the Trade - ] #[a(href="https://github.com/MinesJA/tools_of_the_trade_frontend") Github Repo]
-  p A web application that allows users to add, rate, and find developer tools. Users can add descriptions, links, and images for tools ranging from frameworks to wireframe tools to packages. Authorizes and authenticates users using Github’s OAuth authorization flow.
-  ul
-    li Built frontend using React Framework, Redux, and Semantic UI for styling.
-    li Built backend using Ruby on Rails and used PostGres as the database management system.
-    li Utilized both Bcrypt and JWT to implement token-based authorization.
+    h4: #[ Stock This Product - ] #[a(href="https://github.com/MinesJA/stock_this_product_frontend") Github Repo]
+    p A Where to Buy page tool to be used by producers looking to help their customers find stores that sell their products. In addition to the full-functionality of a typical Where to Buy page, Stock This Product also allows sales teams to upload stores they’re trying to sell into which appear in customer search results, prompting customers to message the buyers asking to stock the producers products.
+    ul
+      li Built frontend using React Framework, Redux, and Semantic UI for styling.
+      li Built backend using Ruby on Rails and used PostGres as the database management system.
+      li Used GoogleMaps API to provide interactive maps for users.
+      li Utilized both Bcrypt and JWT to implement token-based authorization.
 
-  h4: #[ Stock This Product - ] #[a(href="https://github.com/MinesJA/stock_this_product_frontend") Github Repo]
-  p A Where to Buy page tool to be used by producers looking to help their customers find stores that sell their products. In addition to the full-functionality of a typical Where to Buy page, Stock This Product also allows sales teams to upload stores they’re trying to sell into which appear in customer search results, prompting customers to message the buyers asking to stock the producers products.
-  ul
-    li Built frontend using React Framework, Redux, and Semantic UI for styling.
-    li Built backend using Ruby on Rails and used PostGres as the database management system.
-    li Used GoogleMaps API to provide interactive maps for users.
-    li Utilized both Bcrypt and JWT to implement token-based authorization.
+    .line
 
-  .line
+    h3 PROFESSIONAL EXPERIENCE
 
-  h3 PROFESSIONAL EXPERIENCE
+    h4 FLATIRON SCHOOL (WEWORK)
+    p Technical Coaching Fellow | Apr 2018 - Present
+    p Assist Lead Instructors in taking classes of around 20 students from an introduction to object-oriented programming in Ruby all the way to development of their own Full-Stack web applications (~15 weeks) utilizing a variety of frontend and backend frameworks, authorization and authentication, 3rd party API’s, relational database management systems, and more.
+    ul
+      li Give ~1.5 hour lectures on Ruby, Rails, React, Redux, SQL, Git, debugging, object-oriented programming, functional programming, and pair programming.
+      li Create new labs and exercises for students in Ruby, Javascript, Rails, and React.
+      li Regularly submit pull requests to existing labs and work closely with the curriculum team to fix bugs, write new tests and extend lab assignments.
+      li Administer between 2-4 technical interviews a week for prospective students.
 
-  h4 FLATIRON SCHOOL (WEWORK)
-  p Technical Coaching Fellow | Apr 2018 - Present
-  p Assist Lead Instructors in taking classes of around 20 students from an introduction to object-oriented programming in Ruby all the way to development of their own Full-Stack web applications (~15 weeks) utilizing a variety of frontend and backend frameworks, authorization and authentication, 3rd party API’s, relational database management systems, and more.
-  ul
-    li Give ~1.5 hour lectures on Ruby, Rails, React, Redux, SQL, Git, debugging, object-oriented programming, functional programming, and pair programming.
-    li Create new labs and exercises for students in Ruby, Javascript, Rails, and React.
-    li Regularly submit pull requests to existing labs and work closely with the curriculum team to fix bugs, write new tests and extend lab assignments.
-    li Administer between 2-4 technical interviews a week for prospective students.
+    h4 BUSHWICK KITCHEN
+    p Head of Sales and Marketing | Feb 2016 - Dec 2017
+    p Managed all sales and marketing strategy with goal of getting Bushwick Kitchen products into national chains like WholeFoods, Williams Sonoma, and Sur La Table. Implemented company-wide systems for inventory management, order processing, and production management  to ensure deadlines were met and orders were carried out accurately.
+    ul
+      li Increased sales 20% through a lead generation, outreach, and nurturing process we developed and perfected.
+      li Managed the implementation of software that encapsulated the entire business process from production to customer service.
+      li Oversaw a doubling of the customer service and sales teams. Established Bushwick Kitchen's first official customer service and sales standards for dealing with real and potential customers.
 
-  h4 BUSHWICK KITCHEN
-  p Head of Sales and Marketing | Feb 2016 - Dec 2017
-  p Managed all sales and marketing strategy with goal of getting Bushwick Kitchen products into national chains like WholeFoods, Williams Sonoma, and Sur La Table. Implemented company-wide systems for inventory management, order processing, and production management  to ensure deadlines were met and orders were carried out accurately.
-  ul
-    li Increased sales 20% through a lead generation, outreach, and nurturing process we developed and perfected.
-    li Managed the implementation of software that encapsulated the entire business process from production to customer service.
-    li Oversaw a doubling of the customer service and sales teams. Established Bushwick Kitchen's first official customer service and sales standards for dealing with real and potential customers.
+    h4 PHD MEDIA
+    p Assistant Analyst | Jan 2015 - Feb 2016
+    p Planned and executed digital media marketing campaigns with budgets between $50,000 and $2,000,000 as part of the digital media buying team for the HBO account.
+    ul
+      li Designed, created, and implemented automated Excel spreadsheets to handle day-to-day tasks that had previously been done manually.
+      li Tracked digital media campaign performance and produced reports based on pre-established campaign metrics.
+      li Made suggestions for future media buying opportunities based on analyses of past campaigns.
 
-  h4 PHD MEDIA
-  p Assistant Analyst | Jan 2015 - Feb 2016
-  p Planned and executed digital media marketing campaigns with budgets between $50,000 and $2,000,000 as part of the digital media buying team for the HBO account.
-  ul
-    li Designed, created, and implemented automated Excel spreadsheets to handle day-to-day tasks that had previously been done manually.
-    li Tracked digital media campaign performance and produced reports based on pre-established campaign metrics.
-    li Made suggestions for future media buying opportunities based on analyses of past campaigns.
+    .line
 
-  .line
-
-  h3 EDUCATION
-  h4 #[ Flatiron School | 2018 ]
-  i Web Development Immersive
-  h4 #[ Brooklyn College | 2008 - 2012 ]
-  i Bachelors in Philosophy and Politics
-  i Graduated Cum Laude
+    h3 EDUCATION
+    h4 #[ Flatiron School | 2018 ]
+    i Web Development Immersive
+    h4 #[ Brooklyn College | 2008 - 2012 ]
+    i Bachelors in Philosophy and Politics
+    i Graduated Cum Laude
