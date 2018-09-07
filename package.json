@@ -1,6 +1,7 @@
 {
   "name": "jon-portfolio-express",
   "version": "0.0.0",
+  "description": "Jon Mines portfolio site",
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
@@ -12,5 +13,8 @@
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
     "morgan": "~1.9.0"
+  },
+  "engines": {
+    "node": "4.1.1"
   }
 }

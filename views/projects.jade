@@ -9,17 +9,39 @@ block content
     #project-grid
 
       .project
-        h4 Stock This Product
-        img.proj-photo(src="https://i.imgur.com/C8Bc9Xj.png" alt="Stock This Product")
-
-      .project
-        h4 Madlibs
-        img.proj-photo(src="https://i.imgur.com/ymhY8QT.png" alt="Madlibs")
-
-      .project
-        h4 Flatiron Field Day
-        img.proj-photo(src="https://i.imgur.com/0cqfSIz.png" alt="Field Day")
-
-      .project
-        h4 Tools of the Trade
+        h3.project-title Tools of the Trade
+        p: #[a(href='https://github.com/MinesJA/tools_of_trade_frontend').button Repo] #[a(href='https://tools-of-trade.herokuapp.com/').button Site]
         img.proj-photo(src="https://i.imgur.com/8pYD4Hf.png" alt="Tools of the Trade")
+        h4 Built with:
+        p React | Rails | Github OAuth | JWT | Semantic | Heroku
+        .line
+        h4 Description:
+        p A React/Rails web application for coders to post, vote, save and share tools used to help in development. Users can browse and search posted tools but must be logged in with their Github account to start posting, voting, and saving.
+
+      .project
+        h3.project-title Madlibs
+        p: #[a(href='https://github.com/MinesJA/madlibs_game').button Repo] #[a(href='https://still-wave-78265.herokuapp.com/').button Site]
+        img.proj-photo(src="https://i.imgur.com/ymhY8QT.png" alt="Madlibs")
+        h4 Built with:
+        p Rails | BCrypt | JWT | Bootstrap | Heroku
+        .line
+        h4 Description:
+        p A Rails web application that allows users to create Madlib stories using a tagging system for extracting words and producing forms for other users to fill out. Users can play, create, and rate stories for other users. Must signup or login to play.
+
+      .project
+        h3.project-title Stock This Product
+        p: #[a(href='https://github.com/MinesJA/tools_of_trade_frontend').button Repo]
+        img.proj-photo(src="https://i.imgur.com/C8Bc9Xj.png" alt="Stock This Product")
+        h4 Built with:
+        p React | Rails | OAuth | JWT | Semantic
+        .line
+        p A Where to Buy page tool to be used by producers looking to help their customers find stores that sell their products. In addition to the full-functionality of a typical Where to Buy page, Stock This Product also allows sales teams to upload stores they’re trying to sell into which appear in customer search results, prompting customers to message the buyers asking to stock the producers products.
+
+      .project
+        h3.project-title Flatiron Field Day
+        p: #[a(href='https://github.com/DanielSeehausen/fi-field-day').button Repo]
+        img.proj-photo(src="https://i.imgur.com/0cqfSIz.png" alt="Field Day")
+        h4 Built with:
+        p Node | Express | Python | Websockets | Redis | Canvas | Digital Ocean
+        .line
+        p An application hosted by the Flatiron School for a Hackathon-styled event. Users can write code using prebuilt functions allowing them to set tiles on a public Canvas board. Users are prompted to programmatically draw on the board and compete against other teams attempting to overwrite their tiles. Users were provided with a Python, Ruby, and Node client to choose from to ensure they could participate in the language they were the most comfortable in.
